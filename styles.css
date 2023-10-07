@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: 'Rye', cursive;
+  text-align: center;
+
+  color: #512B00;
+}
+
+#hero {
+  background: linear-gradient(#F8C17E, #ffffff);
+  background-color: green;
+  background-image: url(images/cornn.jpeg);
+  background-size: cover;
+  padding: 40px 0 550px 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1, h2 {
+  text-shadow: 1px 1px 0px white;
+}
+
+#hero2 {
+  margin: 75px 50px 75px 50px;
+}
+
+.paragraph {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.landmarks {
+  margin-bottom: 50px;
+  position: inherit;
+  font-size: 40px;
+}
+
+.images2 {
+  width: 600px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.second {
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+  background-color: #F8C17E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third {
+  margin-bottom: 50px;
+  position: inherit;
+  font-size: 40px;
+}
+
+.img1 {
+  padding: 10px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+#tims {
+  padding: 20px;
+}
+
+#pic1 {
+  font-size: 20px;
+}
+
+#pic2 {
+  font-size: 20px;
+}
+
+#pic3 {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+#tour {
+  padding: 40px 0 30px 0;
+}
+
+.exclusive {
+  border-bottom: 4px solid black;
+}
+
+.last {
+  width: 600px;
+  margin: 0 auto 60px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #F8C17E;
+  color: #512B00;
+  border: 2px dashed black;
+}
+
+.last1 {
+  text-shadow: 1px 1px 0 white;
+  padding: 5px;
+}
+
+.titles {
+  background: 5px solid white;
+}
+
+#riyad {
+  width: 275px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 30px 4px 30px 4px;
+  padding: 8px 16px 8px 16px;
+  background: #dfe1e5;
+  border: none;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: green;
+}
